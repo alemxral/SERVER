@@ -3,18 +3,21 @@
   "version": "1.0.0",
   "main": "checkout.js",
   "scripts": {
-    "dev": "vercel dev",  
-    "build": "echo 'No build step required'", 
+    "dev": "vercel dev",
+    "build": "echo 'No build step required'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
   "dependencies": {
     "stripe": "^17.2.0",
-    "@vercel/node": "^1.10.0" 
+    "@vercel/node": "^1.10.0"
   },
   "engines": {
-    "node": ">=14.x" 
+    "node": ">=14.x"
   }
 }
-
 
 
