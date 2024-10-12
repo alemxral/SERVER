@@ -1,5 +1,10 @@
 {
-  "outputDirectory": ".",
+  "routes": [
+    {
+      "src": "/",
+      "dest": "/index.html"
+    }
+  ],
   "builds": [
     {
       "src": "checkout.js",
